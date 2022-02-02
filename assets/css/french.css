@@ -44,12 +44,15 @@ header nav ul li a:hover {
 }
 
 header h1 {
-	width: 90%;
-	margin: 30px auto;
+	position: relative;
+	top: 50%;
+	font-size: 50px;
 }
 
 header p {
-	font-size: 20px;
+	position: relative;
+	top: 70%;
+	font-size: 30px;
 }
 
 footer {
