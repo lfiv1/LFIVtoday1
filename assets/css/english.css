@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap');
+
+a,
+a:hover,
+a:active,
+a:focus,
+a:visited {
+	text-decoration: none;
+	outline: none;
+}
+
+body {
+  font-family: "Oswald", sans-serif;
+}
+
+/*Header*/
+header {
+	padding-bottom: 200px;
+	text-align: center;
+}
+
+header nav ul li {
+	display: inline-block;
+	font-size: 24px;
+	margin: 20px;
+}
+
+header nav ul li a {
+	color: black;
+	transition: 0.3s;
+}
+
+header nav ul li a:hover {
+	color: red;
+}
+
+.journal {
+	text-align: center;
+	padding-left: 800px;
+}
+
+.logo img {
+	width: 70%;
+}
+
+header h1 {
+	margin: 40px 0;
+}
+
+header p {
+	font-size: 20px;
+}
+
+footer {
+	padding: 30px 0;
+	text-align: center;
+}
+
+footer .logo2 {
+	margin: 5px 0;
+}
+
+footer a i {
+	margin: 5px 5px 10px;
+	transition: 0.3s;
+}
+
+footer a i:hover {
+	color: black;
+}
+
+@media only screen and (max-width: 991px) {
+	header nav ul li {
+		margin: 15px;
+	}
+
+	.journal p {
+		width: 100%;
+	}
+
+	.journal {
+		text-align: center;
+		padding-left: 10px;
+	}
+
+}
